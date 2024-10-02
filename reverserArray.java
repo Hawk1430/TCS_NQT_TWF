@@ -1,6 +1,6 @@
-import java.lang.reflect.Array;
+
 import java.util.Scanner;
-import java.util.*;
+
 
 public class reverserArray {
     public static void main(String[] args) {
@@ -22,5 +22,6 @@ public class reverserArray {
         for(int num:arr){
             System.err.print(num + " ");
         }
+        sc.close();
     }
 }

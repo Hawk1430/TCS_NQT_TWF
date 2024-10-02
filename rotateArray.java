@@ -1,6 +1,5 @@
 public class rotateArray {
     public static void main(String[] args) {
-        int n = 5;
         int[] a = {1, 2, 3, 4, 5};
         int k=2;
         int r = k%a.length;
@@ -23,5 +22,6 @@ public class rotateArray {
         for(int num: arr){
             System.out.print(num + " ");
         }
+        
     }
 }

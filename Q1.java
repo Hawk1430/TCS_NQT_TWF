@@ -17,7 +17,7 @@ public class Q1 {
             max = Math.max(num, max);
         }
         System.out.println(max);
-
+        sc.close();
 
     }
     

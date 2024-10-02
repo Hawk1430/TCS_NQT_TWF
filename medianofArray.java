@@ -20,5 +20,8 @@ public class medianofArray {
             median = arr[n/2];
         }
         System.out.println(median);
+        sc.close();
     }
+
+
 }

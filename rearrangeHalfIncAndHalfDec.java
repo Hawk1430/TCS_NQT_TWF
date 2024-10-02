@@ -17,5 +17,6 @@ public class rearrangeHalfIncAndHalfDec {
         for(int i=n-1;i>=n/2;i--){
             System.out.print(arr[i] + " ");
         }
+        sc.close();
     }
 }

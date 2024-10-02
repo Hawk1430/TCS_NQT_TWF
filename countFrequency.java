@@ -1,4 +1,4 @@
-import java.util.HashMap;
+
 import java.util.LinkedHashMap;
 import java.util.Scanner;
 
@@ -17,6 +17,6 @@ public class countFrequency {
         for(Integer key:hmap.keySet()){
             System.out.println(key+": "+hmap.get(key) );
         }
-
+        sc.close();
     }
 }
