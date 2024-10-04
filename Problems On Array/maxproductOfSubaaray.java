@@ -10,7 +10,7 @@ public class maxproductOfSubaaray {
             prod2 = Math.min(arr[i], Math.min(prod1*arr[i],prod2*arr[i]));
             prod1 = temp;
             
-            maxProd = Math.max(maxProd, prod1);
+            maxProd = Math.max(maxProd , prod1);
             
         }
         System.out.println(maxProd);
