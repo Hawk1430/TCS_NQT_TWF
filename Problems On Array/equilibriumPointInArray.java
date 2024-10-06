@@ -12,7 +12,7 @@ public class equilibriumPointInArray {
         int rightSum = totalSum;
         for(int i=0;i<nums.length;i++){
             rightSum -=  nums[i];
-            if(leftSum == rightSum){
+            if(leftSum ==  rightSum){
                 System.out.println(i);
                 return;
             }
