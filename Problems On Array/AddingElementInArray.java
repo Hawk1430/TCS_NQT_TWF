@@ -15,7 +15,7 @@ public class AddingElementInArray {
         for(int i=0;i<arr.length+1; i++){
             if(idx == i){
                 flag= true;
-                arr2[i] =  val;
+                arr2[i] =   val;
             }
             else if(!flag){
                 arr2[i] = arr[i];
