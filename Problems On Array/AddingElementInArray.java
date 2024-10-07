@@ -21,7 +21,7 @@ public class AddingElementInArray {
                 arr2[i]  = arr[i];
             }
             else if(flag){
-                arr2[i] = arr[i-1];
+                arr2[i]  = arr[i-1];
             }
         }
         return arr2;
