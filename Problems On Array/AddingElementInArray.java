@@ -4,7 +4,7 @@ public class AddingElementInArray {
         int arr[] = {1,2,3,4,5};
         int n = 40;
         int idx = 3;
-        int [] updatedArr= insert(arr,  n, idx);
+        int [] updatedArr= insert(arr, n, idx);
         for (int i : updatedArr) {
             System.out.print(i + " ");
         }
