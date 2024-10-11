@@ -6,7 +6,7 @@ public class maxproductOfSubaaray {
         int prod2 = arr[0];
         int maxProd = arr[0];
         for(int i=1;i<arr.length;i++){
-            int temp = Math.max(arr[i], Math.max(prod1*arr[i],prod2*arr[i]));
+            int temp = Math.max(arr[i], Math.max(prod1*arr[i], prod2*arr[i]));
             prod2 = Math.min(arr[i], Math.min(prod1*arr[i],prod2*arr[i]));
             prod1 = temp;
             
