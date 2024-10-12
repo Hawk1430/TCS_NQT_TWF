@@ -8,7 +8,7 @@ public class removeDuplicatedSortedArray {
         for(int i=0;i<n;i++){
             arr[i] = sc.nextInt();
         }
-        int i=0;
+        int i=0 ;
         int j=1;
         while(i<n && j<n){
             if(arr[i] == arr[j] ){
