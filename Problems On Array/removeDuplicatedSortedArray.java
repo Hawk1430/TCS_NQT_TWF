@@ -16,7 +16,7 @@ public class removeDuplicatedSortedArray {
             }
             else if(arr[i] != arr[j]){
                 i++;
-                swap(arr, i,j);
+                swap(arr,i,j);
                 j++;
             }
         }
