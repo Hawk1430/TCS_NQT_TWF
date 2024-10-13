@@ -9,7 +9,7 @@ public class repeatingElements {
         }
         for(Integer key:lhmap.keySet()){
             if(lhmap.get(key) > 1){
-                System.out.print(key+ " ");
+                System.out.print(key+ "  ");
             }
         }
 
