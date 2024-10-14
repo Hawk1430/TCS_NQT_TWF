@@ -14,7 +14,7 @@ public class medianofArray {
         if(n%2 == 0){
             int temp = arr[(n/2)-1] ;
             int temp2 = arr[n/2];
-            median = (double)( temp+temp2)/2;
+            median = (double)(temp+temp2)/2;
         }
         else{
             median = arr[n/2];
