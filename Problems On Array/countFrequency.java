@@ -15,7 +15,7 @@ public class countFrequency {
         }
 
         for(Integer key:hmap.keySet()){
-            System.out.println(key+": "+hmap.get(key) );
+            System.out.println(key+": "+hmap.get(key ) );
         }
         sc.close();
     }
