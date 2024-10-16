@@ -17,7 +17,7 @@ public class sortingArrayOnBasisOfFrequency {
 
         Map<Integer,Integer> hmap = new HashMap<>();
         for(int num:arr){
-            hmap.put(num, hmap.getOrDefault(num,0)+1);
+            hmap.put(num, hmap.getOrDefault(num,0)+ 1);
         }
 
         List<Pair> al = new ArrayList<>();
