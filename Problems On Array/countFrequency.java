@@ -10,7 +10,7 @@ public class countFrequency {
         LinkedHashMap<Integer,Integer> hmap = new LinkedHashMap<>();
         for(int i=0;i<n;i++){
             arr[i] = sc.nextInt();
-            int temp = hmap.getOrDefault(arr[i] ,0);
+            int temp = hmap.getOrDefault(arr[i],0);
             hmap.put(arr[i],temp+1);
         }
 
