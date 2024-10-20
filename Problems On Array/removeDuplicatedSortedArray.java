@@ -11,7 +11,7 @@ public class removeDuplicatedSortedArray {
         int i=0;
         int j=1;
         while(i<n && j<n){
-            if(arr[i] == arr[j] ){
+            if(arr[i] == arr[j]){
                 j++;
             }
             else if(arr[i] != arr[j]){
