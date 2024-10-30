@@ -1,7 +1,7 @@
 public class quickSort{
     public static void main(String[] args) {
         int [] arr = {2,5,1,34,7,9,6};
-        quicksort(arr, 0,     arr.length-1);
+        quicksort(arr, 0, arr.length-1);
 
         for(int num: arr){
             System.out.print(num + " ");
